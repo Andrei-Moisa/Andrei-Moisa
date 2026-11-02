@@ -1,0 +1,34 @@
+name: Update contribution calendar
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Fetch public counts and rebuild the calendar
+        run: |
+          python3 tools/refresh_activity.py
+          python3 tools/build_activity.py --readme README.md
+      - name: Save the updated calendar
+        run: |
+          if git diff --quiet -- README.md assets/activity.svg; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/activity.svg
+          git commit -m 'Refresh contribution calendar'
+          git push

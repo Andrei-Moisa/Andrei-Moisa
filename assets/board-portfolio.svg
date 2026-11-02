@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 236" width="320" height="236" role="img" aria-labelledby="t d">
+<title id="t">andreimoisa.net — live portfolio, a night drive through the work</title>
+<desc id="d">Neon billboard card in gold. Label: 03, portfolio, live. Title: Night Drive. Scroll-driven night drive. Link: andreimoisa.net.</desc>
+<defs>
+<linearGradient id="tint" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd700" stop-opacity="0.110"/><stop offset=".6" stop-color="#ffd700" stop-opacity="0.033"/><stop offset="1" stop-color="#ffd700" stop-opacity="0.066"/></linearGradient>
+<linearGradient id="refl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd700" stop-opacity=".34"/><stop offset="1" stop-color="#ffd700" stop-opacity="0"/></linearGradient>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" fill-opacity=".045"/></pattern>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="4"/></filter>
+<filter id="tglow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="5"/></filter>
+<filter id="smear" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="3 5"/></filter>
+<path id="ttl" d="M26.34 104L26.34 85.25L28.79 85.25L47.62 101.11L47.65 101.11L47.65 85.25L49.99 85.25L49.99 104L47.55 104L28.71 88.01L28.69 88.01L28.69 104L26.34 104ZM54.68 104L54.68 85.25L57.02 85.25L57.02 104L54.68 104ZM60.93 94.87L60.93 94.38Q60.93 91.89 61.17 90.2Q61.41 88.51 62.01 87.45Q62.61 86.39 63.64 85.82Q64.67 85.26 66.24 85.06Q67.8 84.86 70 84.86L74.59 84.86Q77.47 84.86 79.27 85.08Q81.07 85.3 82.04 85.92Q83.01 86.54 83.38 87.73Q83.74 88.92 83.74 90.85L81.4 90.85Q81.4 89.4 81.14 88.59Q80.88 87.78 80.18 87.42Q79.47 87.06 78.12 86.97Q76.77 86.89 74.59 86.89L70 86.89Q68.25 86.89 67.05 86.99Q65.86 87.09 65.11 87.47Q64.36 87.84 63.96 88.64Q63.56 89.45 63.42 90.84Q63.27 92.23 63.27 94.38L63.27 94.87Q63.27 96.94 63.42 98.31Q63.56 99.68 63.96 100.5Q64.36 101.31 65.11 101.72Q65.86 102.12 67.05 102.24Q68.25 102.36 70 102.36L75.4 102.36Q77.42 102.36 78.65 102.2Q79.88 102.03 80.52 101.49Q81.17 100.95 81.39 99.83Q81.6 98.71 81.6 96.81L81.6 96.09L72.63 96.09L72.63 94.14L83.95 94.14L83.95 96.81Q83.95 99.19 83.55 100.68Q83.14 102.17 82.18 102.98Q81.23 103.79 79.57 104.09Q77.92 104.39 75.4 104.39L70 104.39Q67.25 104.39 65.48 104.02Q63.71 103.65 62.71 102.65Q61.72 101.64 61.32 99.76Q60.93 97.88 60.93 94.87ZM88.33 104L88.33 85.25L90.67 85.25L90.67 93.45L107.86 93.45L107.86 85.25L110.21 85.25L110.21 104L107.86 104L107.86 95.41L90.67 95.41L90.67 104L88.33 104ZM123.12 104L123.12 87.2L113.75 87.2L113.75 85.25L134.84 85.25L134.84 87.2L125.46 87.2L125.46 104L123.12 104ZM26.39 138L26.39 119.25L40.31 119.25Q43.06 119.25 44.83 119.58Q46.6 119.91 47.59 120.86Q48.58 121.8 48.98 123.61Q49.38 125.41 49.38 128.38L49.38 128.87Q49.38 131.74 48.98 133.54Q48.58 135.34 47.59 136.31Q46.6 137.28 44.83 137.64Q43.06 138 40.31 138L26.39 138ZM28.74 135.97L40.31 135.97Q42.49 135.97 43.82 135.77Q45.15 135.56 45.85 134.86Q46.55 134.17 46.79 132.74Q47.03 131.31 47.03 128.87L47.03 128.38Q47.03 126.35 46.89 125.04Q46.74 123.72 46.34 122.95Q45.95 122.19 45.2 121.83Q44.45 121.47 43.25 121.37Q42.05 121.28 40.31 121.28L28.74 121.28L28.74 135.97ZM53.33 119.25L65.88 119.25Q68.63 119.25 70.31 119.49Q71.99 119.74 72.85 120.34Q73.72 120.93 74.02 121.97Q74.33 123.01 74.33 124.6L74.33 125.08Q74.33 126.55 73.98 127.61Q73.63 128.66 72.65 129.31Q71.66 129.97 69.72 130.24L73.79 138L71.45 138L67.46 130.41Q67.21 130.42 66.95 130.42Q66.69 130.42 66.41 130.42L55.68 130.42L55.68 138L53.33 138L53.33 119.25ZM55.68 128.39L66.04 128.39Q68.13 128.39 69.33 128.25Q70.53 128.11 71.1 127.76Q71.67 127.4 71.83 126.76Q71.99 126.11 71.99 125.08L71.99 124.6Q71.99 123.44 71.77 122.77Q71.55 122.09 70.89 121.78Q70.23 121.46 68.92 121.37Q67.62 121.28 65.43 121.28L55.68 121.28L55.68 128.39ZM78.76 138L78.76 119.25L81.1 119.25L81.1 138L78.76 138ZM94.39 138L84.28 119.25L86.96 119.25L95.95 136.34L104.93 119.25L107.58 119.25L97.51 138L94.39 138ZM110.79 138L110.79 119.25L129.2 119.25L129.2 121.2L113.14 121.2L113.14 127.45L128.53 127.45L128.53 129.41L113.14 129.41L113.14 136.05L129.54 136.05L129.54 138L110.79 138Z"/>
+</defs>
+<style>.hud{font-family:'Roboto Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace;font-size:10.5px;letter-spacing:.18em}</style>
+<rect width="320" height="236" fill="#050508"/>
+<rect x="17" y="210" width="286" height="24" fill="url(#refl)" filter="url(#smear)"/>
+<rect x="9" y="9" width="302" height="197" fill="#07070d"/>
+<rect x="9" y="9" width="302" height="197" fill="url(#tint)"/>
+<rect x="9" y="9" width="302" height="197" fill="url(#scan)"/>
+<rect x="9" y="9" width="302" height="197" rx="2" fill="none" stroke="#ffd700" stroke-width="4" opacity=".75" filter="url(#glow)"/>
+<rect x="9" y="9" width="302" height="197" rx="2" fill="none" stroke="#ffd700" stroke-width="1.6"/>
+<rect x="9.1" y="9.1" width="302" height="197" rx="1.5" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width=".6"/>
+<g class="hud">
+<text x="24" y="38" fill="#b3c4c8">03 · PORTFOLIO</text>
+<circle cx="249" cy="34.5" r="3" fill="#ffd700"/>
+<text x="296" y="38" fill="#e0e0e0" text-anchor="end">LIVE</text>
+</g>
+<use href="#ttl" fill="#ffd700" opacity=".55" filter="url(#tglow)"/>
+<use href="#ttl" x="-.9" fill="#ff00ff" opacity=".55"/>
+<use href="#ttl" x=".9" fill="#00ffc8" opacity=".55"/>
+<use href="#ttl" fill="#f4f8f9"/>
+<path d="M24 160h34" stroke="#ffd700" stroke-width="1.4"/><path d="M62 160H296" stroke="#b3c4c8" stroke-opacity=".22"/>
+<g class="hud">
+<text x="24" y="179" fill="#b3c4c8">SCROLL-DRIVEN NIGHT DRIVE</text>
+<text x="24" y="196" fill="#ffd700">ANDREIMOISA.NET <tspan fill="#e0e0e0">↗</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,10 @@
+*.local.html
+*.local.css
+public-activity.json
+preview.html
+DESIGN.md
+__pycache__/
+tools/build_banner.py
+tools/build_boards.py
+tools/build_preview.py
+tools/ttf_outline.py
