@@ -45,7 +45,8 @@ class PublicCalendar(HTMLParser):
 
     def result(self, start, end):
         expected = {start + dt.timedelta(days=i) for i in range((end - start).days + 1)}
-        if {dt.date.fromisoformat(date) for date in self.cells.values()} != expected:
+        available = {dt.date.fromisoformat(date) for date in self.cells.values()}
+        if not expected <= available:
             raise ValueError('The public calendar does not cover the requested dates.')
         if not self.cells.keys() <= self.counts.keys():
             raise ValueError('Some public calendar cells have no contribution count.')
@@ -58,6 +59,10 @@ class PublicCalendar(HTMLParser):
         heading = re.search(r'\b([\d,]+) contributions? in\b', text)
         if not heading or int(heading[1].replace(',', '')) != total:
             raise ValueError('Public calendar day counts do not match its displayed total.')
+        # GitHub pads its calendar to a week boundary. Validate the full displayed
+        # total before trimming those extra days from our rolling-year snapshot.
+        days = [day for day in days if start.isoformat() <= day['date'] <= end.isoformat()]
+        total = sum(day['contributionCount'] for day in days)
         return {'total': total, 'days': days}
 
 
